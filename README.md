@@ -412,29 +412,10 @@
 
 ---
 
-## Запуск тестов
-
-```bash
-# Установка зависимостей
-pip install -r requirements.txt
-
-# Запуск всех тестов
-pytest tests/ --alluredir=allure-results
-
-# Запуск дымовых тестов
-pytest -m smoke --alluredir=allure-results
-
-# Просмотр отчета
-allure serve allure-results
-```
-
----
-
 ## Автор
 
-**Артем Маслик**  
+**Артем Масловский**  
 Email: artem.maslik2007@gmail.com
 
 ---
 
-*Проект демонстрирует навыки автоматизации тестирования с использованием современных инструментов и лучших практик*
